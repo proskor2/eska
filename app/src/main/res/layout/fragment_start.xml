@@ -3,27 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.views.StartFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".ui.views.StartFragment">
 
     <ImageView
         android:layout_width="200dp"
         android:layout_height="47dp"
         android:layout_gravity="center"
         android:layout_margin="@dimen/image_margin"
-        android:src="@drawable/logotextcifracar"/>
+        android:src="@drawable/logotextcifracar" />
 
     <ImageView
         android:id="@+id/image_nfc"
         android:layout_width="275dp"
         android:layout_height="168dp"
+        android:layout_gravity="center"
         android:layout_margin="@dimen/image_margin"
-        android:src="@drawable/nfccard"
-        android:layout_gravity="center"/>
-    <Button
-        style="@style/ButtonCoralConnect"/>
+        android:src="@drawable/nfccard" />
 
-    <Button
-style="@style/ButtonCoralNext"/>
+    <Button style="@style/ButtonCoralConnect" />
+
+    <Button style="@style/ButtonCoralNext" />
 
 </LinearLayout>

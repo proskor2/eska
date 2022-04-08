@@ -14,16 +14,14 @@
         <item name="android:textAlignment">center</item>
     </style>
 
-
-
 // buttons styles
     // coral button
     <style name="ButtonCoral" parent="android:Widget.Button">
         <item name="android:layout_width">150dp</item>
         <item name="android:layout_height">50dp</item>
-        <item name="android:background">@drawable/buttoncolor2</item>
+        <item name="android:background">@drawable/buttoncolor</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
         <item name="android:textAppearance">@style/TextMyStyle16</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_margin">@dimen/button_margin</item>
@@ -65,8 +63,8 @@
         <item name="android:layout_height">50dp</item>
         <item name="android:background">@drawable/buttonwhite</item>
         <item name="android:textColor">@color/coral</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textAppearance">@style/TextMyStyle16</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+<!--        <item name="android:textAppearance">@style/TextMyStyle16</item>-->
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_margin">@dimen/button_margin</item>
     </style>
