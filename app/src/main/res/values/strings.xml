@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">Эска</string>
+    <string name="app_name">CifraCar</string>
 
     // action bar titles
     <string name="actionbartitle_main">Главная</string>

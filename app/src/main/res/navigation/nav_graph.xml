@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/FirstFragment"
         android:name="store.dide.eska.ui.views.StartFragment"
-        android:label="@string/first_fragment_label"
+
         tools:layout="@layout/fragment_start">
 
         <action
@@ -18,7 +18,7 @@
     <fragment
         android:id="@+id/SecondFragment"
         android:name="store.dide.eska.ui.views.ShopFragment"
-        android:label="@string/second_fragment_label"
+
         tools:layout="@layout/fragment_shop">
 
         <action

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+// text styles
+    <style name="TextMyStyle16" parent="android:TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="TextMyStyle24" parent="android:TextAppearance">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+
+// buttons styles
+    // coral button
+    <style name="ButtonCoral" parent="android:Widget.Button">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/buttoncolor2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAppearance">@style/TextMyStyle16</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+    </style>
+
+    <style name="ButtonCoralNext" parent="ButtonCoral">
+        <item name="android:text">@string/buttonnext</item>
+    </style>
+
+    <style name="ButtonCoralConnect" parent="ButtonCoral">
+        <item name="android:text">@string/buttonconnect</item>
+    </style>
+
+    <style name="ButtonCoralSave" parent="ButtonCoral">
+        <item name="android:text">@string/buttonsave</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="ButtonCoralUpdate" parent="ButtonCoral">
+        <item name="android:text">@string/buttonupdate</item>
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="ButtonCoralFillForm" parent="ButtonCoral">
+        <item name="android:text">@string/buttonfillform</item>
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="ButtonCoralSend" parent="ButtonCoral">
+        <item name="android:text">@string/buttonsend</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    //white buttons
+    <style name="ButtonWhite" parent="android:Widget.Button">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/buttonwhite</item>
+        <item name="android:textColor">@color/coral</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAppearance">@style/TextMyStyle16</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+    </style>
+
+    <style name="ButtonWhiteClose" parent="ButtonWhite">
+        <item name="android:text">@string/buttonclose</item>
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="ButtonWhiteDemo" parent="ButtonWhite">
+        <item name="android:text">@string/buttondemo</item>
+    </style>
+
+    <style name="ButtonWhiteCancel" parent="ButtonWhite">
+        <item name="android:text">@string/buttoncancel</item>
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="ButtonWhiteSkip" parent="ButtonWhite">
+        <item name="android:text">@string/buttonskip</item>
+    </style>
+
+</resources>
