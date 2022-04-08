@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">Эска</string>
+
+    // action bar titles
+    <string name="actionbartitle_main">Главная</string>
+    <string name="actionbartitle_setting">Настройки</string>
+    <string name="actionbartitle_create">Добавить</string>
+    <string name="actionbartitle_transport">Транспорт</string>
+
+    // buttons
+    <string name="buttonnext">Далее</string>
+    <string name="buttonconnect">Подключить</string>
+    <string name="buttonsave">Сохранить</string>
+    <string name="buttonupdate">Обновить</string>
+    <string name="buttonfillform">Заполнить анкету</string>
+    <string name="buttonsend">Отправить</string>
+    <string name="buttonclose">Закрыть</string>
+    <string name="buttondemo">Демо</string>
+    <string name="buttoncancel">Отмена</string>
+    <string name="buttonskip">Пропустить</string>
+
+    // prompts
+    <string name="promptnfctitle">Подсказка</string>
+    <string name="promptnfctext">Приложите приобретенный NFC-токен к устройству для их сопряжения, это не займет много времени. Для успешного перехода дальше потяните в сторону этот текст</string>
+    <string name="promptfinderrortitle">Упс…</string>
+    <string name="promptfinderrortext">Мы не смогли найти ваш автомобиль по регистрационному знаку ТС. Воспользуйтесь расширенной формой для поиска</string>
+    <string name="promptwarningtitle">Внимание</string>
+    <string name="promptwarningtext">Вы можете раз в день обновить паспорт своего транспортного средства из систем Госавтоинспекции. Обновление информации производится по VIN номеру транспортного средства и применяется автоматически к существующей электронной сервисной книжке</string>
+
+    //cards
+    //shops
+    <string name="cardozontitle">OZON</string>
+    <string name="cardozontext">Однин из лидеров отечественного рынка удаленных онлайн-продаж</string>
+    <string name="cardwildbtitle">Wildberries</string>
+    <string name="cardwildbtext">Модный интернет-магазин одежды, обуви и аксессуаров!</string>
+
+    //textviews
+    //startscreen
+    <string name="regcard">Регистрация сервисной карты</string>
+    <string name="idonthavecard">Нет карты? Приобрести</string>
+    <string name="ihavecard">Есть добавленные карты</string>
+
+
+</resources>
